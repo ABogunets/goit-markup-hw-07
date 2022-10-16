@@ -1,0 +1,45 @@
+.feature-set {
+    display: flex;
+}
+
+.feature-set__item {
+    width: 270px;
+}
+
+.feature-set__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.feature-set__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    color: var(--secondary-text-color);
+
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.feature-set__text {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.feature-set__icon {
+    display: flex;
+    height: 120px;
+    margin-bottom: 30px;
+
+    background-color: var(--team-bkgd-color);
+    border-radius: 4px;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.feature-set__icon--size {
+    width: 70px;
+    height: 70px;
+}

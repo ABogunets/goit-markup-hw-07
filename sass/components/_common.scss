@@ -1,0 +1,114 @@
+body {
+    background-color: var(--primary-bkgd-color);
+    color: var(--primary-text-color);
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+img {
+    display: block;
+}
+
+/* button */
+.button {
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    background-color: var(--accent-text-color);
+    color: var(--primary-bkgd-color);
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+
+    cursor: pointer;
+    transition: background-color var(--duration) var(--timing-function);
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--btn-hover-accent-color);
+}
+
+/* section-title */
+.section-title {
+    color: var(--secondary-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* social-media icons */
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.social-media__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-media__icon {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    fill: var(--icon-color);
+}
+
+.social-media__link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+
+    transition: background-color var(--duration) var(--timing-function);
+}
+
+.social-media__link:hover,
+.social-media__link:focus {
+    background-color: var(--accent-text-color);
+}
+
+.social-media__link svg {
+    transition: fill var(--duration) var(--timing-function);
+}
+
+.social-media__link:hover svg {
+    fill: var(--primary-bkgd-color);
+}
+
+.social-media__link:focus svg {
+    fill: var(--primary-bkgd-color);
+}
+
+/* UTILITIES */
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
