@@ -1,24 +1,19 @@
 .work {
     padding-top: 0;
 }
-
 .work-set {
     display: flex;
 }
-
 .work-set__item:not(:last-child) {
     margin-right: 30px;
 }
-
 .work-set__item {
     position: relative;
 }
-
 .work__section-title {
     margin-top: 0;
     margin-bottom: 46px;
 }
-
 .work-set--overlay {
     position: absolute;
     right: 0;
@@ -27,7 +22,6 @@
     height: 70px;
     background: rgba(47, 48, 58, 0.8);
 }
-
 .work-set__title {
     margin: 0;
     padding-top: 27px;
@@ -36,8 +30,6 @@
 
     color: var(--primary-bkgd-color);
 
-    font-weight: 700;
-    line-height: 1.14;
-    letter-spacing: 0.03em;
+    @include font (14px, 1.14, 0.03em, 700);
     text-transform: uppercase;
 }

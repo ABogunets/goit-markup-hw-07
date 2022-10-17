@@ -1,11 +1,9 @@
-/* HERO */
 .hero {
     background-color: var(--secondary-bkgd-color);
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
 }
-
 .hero__title {
     margin-top: 0px;
     margin-bottom: 30px;
@@ -15,18 +13,13 @@
 
     color: var(--primary-bkgd-color);
 
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    letter-spacing: 0.06em;
+    @include font (44px, 1.4, 0.06em, 900);
     text-transform: uppercase;
 }
-
 .hero__button {
     padding: 10px 32px;
     min-width: 216px;
 }
-
 .hero--overlay {
     max-width: 1600px;
     height: 600px;
